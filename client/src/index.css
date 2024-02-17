@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: greenyellow;
+  font-family: "Poppins", sans-serif;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+input,textarea,select{
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: greenyellow;
+  border-bottom: 1px solid greenyellow;
+}
+.form{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px;
+  align-items: center;
+  padding: 20px;
+  padding-top: 50px;
+  border-radius: 10px;
+  border-top: 10px solid #76AD22;
+  box-shadow: 0px 20px 20px rgba(0,0,0,0.8);
+} 
+ .form button{
+      width: 60%;
+      margin: 10px;
+      padding: 10px;
+      font-size: 1rem;
+      background-color: #76AD22;
+      color: white;
+      border: 1px solid white;
+      border-radius: 4px;
+      transition: 0.5s ease-in;
+  }
+  .form button:hover{
+    background-color: white;
+    color: #76AD22;
+}
+.form h1{
+  color: white;
+}
