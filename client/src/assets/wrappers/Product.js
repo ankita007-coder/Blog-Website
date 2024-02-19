@@ -11,7 +11,7 @@ const Wrapper = styled.div`
             margin-left: 10px;
             color: greenyellow;
         }
-        input,select,button{
+        input,select,button,textarea{
             width: 90%;
             margin: 15px;
         }

@@ -28,6 +28,7 @@ const Products = () => {
             })
           }
         </select>
+        <textarea name="description" id="description" cols="30" rows="10" placeholder='Add product details'></textarea>
         <button type="submit">Add Product</button>
       </Form>
     </Wrapper>
